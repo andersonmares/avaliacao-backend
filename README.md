@@ -7,4 +7,4 @@
 - JWT
 - Banco de Dados H2
 
-Para executar a aplicação rode o comando: mvn spring-boot:run
+### Para executar a aplicação rode o comando: mvn spring-boot:run
