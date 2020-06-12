@@ -1,0 +1,10 @@
+INSERT INTO cliente (nome, cpf) VALUES ('Joao da Silva', '76905822060');
+INSERT INTO cliente (nome, cpf) VALUES ('Maria da Silva', '73359215036');
+INSERT INTO endereco (cep, logradouro, bairro, cidade, uf, complemento, id_cliente) VALUES ('70070705', 'Setor SRPN - Ginásio de Esportes Nilson Nelson', 'Asa Norte ', 'Brasília', 'DF', null, 1);
+INSERT INTO endereco (cep, logradouro, bairro, cidade, uf, complemento, id_cliente) VALUES ('38706400', 'Avenida Presidente Tancredo Neves', 'Cidade Nova','Patos de Minas', 'MG', null, 2);
+INSERT INTO email (email, id_cliente) VALUES ('joao.silva@gmail.com', 1);
+INSERT INTO email (email, id_cliente) VALUES ('silva.joao@email.com.br', 1);
+INSERT INTO email (email, id_cliente) VALUES ('marisilva@email.com', 2);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('CEL', '61985327240', 1);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('RES', '6132320550', 2);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('COM', '6133477624', 2);
